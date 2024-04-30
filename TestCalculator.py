@@ -4,9 +4,9 @@ from calculator import Calculator
 class TestCalculator(unittest.TestCase):
     
     def test_calculator_class_exists(self):
-        calc = Calculator() # attempt to make an object of the Calculator class.
-        self.assertIsInstance(calc, Calculator) # Test if calc is instance of Calculator.
-
+        calc = Calculator() 
+        self.assertIsInstance(calc, Calculator) 
+        
     def test_add_method_exists(self):
         calc = Calculator()
         self.assertTrue(callable(getattr(calc, "add", None)))
