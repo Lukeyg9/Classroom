@@ -3,5 +3,7 @@ class Student:
         self.name = name
         self.age = age
 
-# Creating an instance of the Student class
-student1 = Student("Alice", 20)
+student1 = Student("Luke", 24)
+student2 = Student("Lucy", 25)
+
+print("Age of student1:", student1.age)
