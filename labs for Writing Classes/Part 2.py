@@ -13,7 +13,7 @@ class Student:
             return 0
         return sum(self.test_scores) / len(self.test_scores)
 
-student = Student("Alice", 20, "Physics")
+student = Student("Luke", 24, "Physics")
 
 student.add_test_scores(85, 90, 88)
 
