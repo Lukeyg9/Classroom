@@ -1,5 +1,5 @@
 """
-This module contains a function to count the occurrences of an item in a sequence.
+Function to count the occurrences of an item in a sequence.
 """
 
 def count(sequence, item):
