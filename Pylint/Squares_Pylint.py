@@ -22,3 +22,5 @@ def test_list_of_squares():
 
 
 test_list_of_squares()
+
+#pylint Squares_Pylint.py
