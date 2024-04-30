@@ -4,7 +4,7 @@ class Bird:
         self.habitat = habitat
 
     def make_sound(self):
-        raise NotImplementedError("Subclasses must use make_sound.")
+        raise NotImplementedError("Subclass must use make_sound.")
 
 class Owl(Bird):
     def __init__(self, species, habitat, nocturnal=True):
