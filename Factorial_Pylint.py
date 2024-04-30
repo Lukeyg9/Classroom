@@ -29,4 +29,4 @@ def test_fact():
 # Run the tests
 test_fact()
 
-# pylint fact.py
+# pylint Factorial_Pylint.py
