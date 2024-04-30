@@ -1,6 +1,6 @@
 def perform_operations():
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
+    num1 = float(input("First number: "))
+    num2 = float(input("Second number: "))
     
     sum_result = num1 + num2
     sub_result = num1 - num2
